@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Student Result</h1>
+
+    <p><strong>Student Name:</strong> {{ name }}</p>
+
+    <p><strong>Total Marks:</strong> {{ total }}</p>
+
+    <p><strong>Percentage:</strong> {{ percentage }}%</p>
+
+    <p><strong>Grade:</strong> {{ grade }}</p>
+
+    <a href="/">Calculate another result</a>
+
+</div>
+
+</body>
+
+</html>
